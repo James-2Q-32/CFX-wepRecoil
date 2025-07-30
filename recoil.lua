@@ -1,7 +1,7 @@
 local weapons = {
 	[GetHashKey('WEAPON_PISTOL')] = {recoil = 0.3, shake = 0.06}, 	--PISTOL	
 	[GetHashKey('WEAPON_PISTOL_MK2')] = {recoil = 0.3, shake = 0.03}, 	--PISTOL MK2
-	[GetHashKey('WEAPON_COMBATPISTOL')] = {recoil = 0.2, shake = 0.03}, -- COMBAT PISTOL
+	[GetHashKey('WEAPON_COMBATPISTOL')] = {recoil = 0.6, shake = 0.07}, -- COMBAT PISTOL
 	[GetHashKey('WEAPON_APPISTOL')] = {recoil = 0.1, shake = 0.05}, -- AP PISTOL
 	[GetHashKey('WEAPON_PISTOL50')] = {recoil = 0.6, shake = 0.05}, -- PISTOL .50
 	[GetHashKey('WEAPON_MICROSMG')] = {recoil = 0.2, shake = 0.035}, -- MICRO SMG
@@ -10,7 +10,7 @@ local weapons = {
 	[GetHashKey('WEAPON_ASSAULTSMG')] = {recoil = 0.1, shake = 0.050}, -- ASSAULT SMG
 	[GetHashKey('WEAPON_ASSAULTRIFLE')] = {recoil = 0.2, shake = 0.07}, -- ASSAULT RIFLE
 	[GetHashKey('WEAPON_ASSAULTRIFLE_MK2')] = {recoil = 0.2, shake = 0.072},-- ASSAULT RIFLE MK2
-	[GetHashKey('WEAPON_CARBINERIFLE')] = {recoil = 0.1, shake = 0.06}, -- CARBINE RIFLE
+	[GetHashKey('WEAPON_CARBINERIFLE')] = {recoil = 0.4, shake = 0.1}, -- CARBINE RIFLE
 	[GetHashKey('WEAPON_CARBINERIFLE_MK2')] = {recoil = 0.1, shake = 0.065}, -- CARBINE RIFLE MK2
 	[GetHashKey('WEAPON_ADVANCED_RIFLE')] = {recoil = 0.1, shake = 0.06}, -- ADVANCED RIFLE
 	[GetHashKey('WEAPON_MG')] = {recoil = 0.1, shake = 0.07}, -- MG
